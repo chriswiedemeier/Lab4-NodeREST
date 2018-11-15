@@ -1,0 +1,33 @@
+nohup: ignoring input
+[0mGET /getcity?q=P [36m304 [0m10.316 ms - -[0m
+[0mGET / [32m200 [0m6.602 ms - 5823[0m
+[0mGET /favicon.ico [33m404 [0m8.766 ms - 1036[0m
+[0mGET /getcity?q=P [36m304 [0m2.149 ms - -[0m
+[0mGET / [36m304 [0m1.261 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m1.314 ms - 1036[0m
+[0mGET / [36m304 [0m0.487 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m1.851 ms - 1258[0m
+Error: Failed to lookup view "error" in views directory "/var/www/html/htdocs/Lab4-NodeREST/views"
+    at EventEmitter.render (/var/www/html/htdocs/Lab4-NodeREST/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/var/www/html/htdocs/Lab4-NodeREST/node_modules/express/lib/response.js:961:7)
+    at /var/www/html/htdocs/Lab4-NodeREST/app.js:53:7
+    at Layer.handle_error (/var/www/html/htdocs/Lab4-NodeREST/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/var/www/html/htdocs/Lab4-NodeREST/node_modules/express/lib/router/index.js:310:13)
+    at /var/www/html/htdocs/Lab4-NodeREST/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/var/www/html/htdocs/Lab4-NodeREST/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/var/www/html/htdocs/Lab4-NodeREST/node_modules/express/lib/router/index.js:271:10)
+    at done (/var/www/html/htdocs/Lab4-NodeREST/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/var/www/html/htdocs/Lab4-NodeREST/node_modules/express/lib/application.js:581:14)
+[0mGET / [36m304 [0m0.480 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m1.254 ms - 1258[0m
+Error: Failed to lookup view "error" in views directory "/var/www/html/htdocs/Lab4-NodeREST/views"
+    at EventEmitter.render (/var/www/html/htdocs/Lab4-NodeREST/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/var/www/html/htdocs/Lab4-NodeREST/node_modules/express/lib/response.js:961:7)
+    at /var/www/html/htdocs/Lab4-NodeREST/app.js:53:7
+    at Layer.handle_error (/var/www/html/htdocs/Lab4-NodeREST/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/var/www/html/htdocs/Lab4-NodeREST/node_modules/express/lib/router/index.js:310:13)
+    at /var/www/html/htdocs/Lab4-NodeREST/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/var/www/html/htdocs/Lab4-NodeREST/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/var/www/html/htdocs/Lab4-NodeREST/node_modules/express/lib/router/index.js:271:10)
+    at done (/var/www/html/htdocs/Lab4-NodeREST/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/var/www/html/htdocs/Lab4-NodeREST/node_modules/express/lib/application.js:581:14)
